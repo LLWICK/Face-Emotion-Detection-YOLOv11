@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['angry', 'happy', 'neutral', 'sad']
+
+roboflow:
+  workspace: yip-chun-kit-y2buh
+  project: emotion-recognition-yolo-v11-fyp-2
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yip-chun-kit-y2buh/emotion-recognition-yolo-v11-fyp-2/dataset/3
